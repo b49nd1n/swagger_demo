@@ -1,7 +1,12 @@
 package com.example.demo.entities;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class AudioFile {
 
+    @Id
     private String id;
     private String name;
     private String content;
